@@ -12,6 +12,9 @@ export default function RootLayout() {
         "QuickSand-Light": require('../assets/fonts/Quicksand-Light.ttf'),
     });
 
+
+    // test
+
     useEffect(() => {
         if(error) throw error;
         if(fontsLoaded) SplashScreen.hideAsync();
