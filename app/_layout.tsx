@@ -13,7 +13,7 @@ export default function RootLayout() {
     });
 
 
-    // test
+    // tests
 
     useEffect(() => {
         if(error) throw error;
